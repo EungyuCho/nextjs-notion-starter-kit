@@ -35,6 +35,12 @@ export default class MyDocument extends Document {
             />
 
             <link rel='manifest' href='/manifest.json' />
+
+            <script
+              async
+              src='https://www.googletagmanager.com/gtag/js?id=G-4G0MLZQ05Z'
+            ></script>
+            <script src='https://latecomers.s3.ap-northeast-2.amazonaws.com/ga/jayGoogle.js'></script>
           </Head>
 
           <body>
@@ -43,14 +49,6 @@ export default class MyDocument extends Document {
             <Main />
 
             <NextScript />
-            <script
-              async
-              src='https://www.googletagmanager.com/gtag/js?id=G-4G0MLZQ05Z'
-            ></script>
-            <script
-              defer
-              src='https://latecomers.s3.ap-northeast-2.amazonaws.com/ga/jayGoogle.js'
-            ></script>
           </body>
         </Html>
       </IconContext.Provider>
